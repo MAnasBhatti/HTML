@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <form action="form.php">
+            <h1>Contact Form</h1>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" size="25" minlength="5" maxlength="25">
+            <br><br>
+            <label for="father name">Father Name:</label>
+            <input type="text"id="father name" name="father name" placeholder="Enter Your Father Name">
+            <br><br>
+            <label for="age">Your age:</label>
+            <input type="number" min="5" max="25"id="age" name="age" placeholder="Enter Your Age">
+         <h3>Select Class Section</h3>
+         <input type="radio" id="sec1" name="Section" value="Ä" checked>
+         <label for="sec1">A</label>
+         <input type="radio" id="sec2" name="Section" value="B">
+         <label for="sec2">B</label>
+         <input type="radio" id="sec3" name="Section" value="C">
+         <label for="sec3">C</label>
+        <input type="radio" id="sec4" name="Section" value="D">
+         <label for="sec4">D</label>
+         <h3>Select your hobbies</h3>
+         <input type="checkbox" name="hob" id="hob1" value="Gardening">
+         <label for="hob1">Gardening</label>
+         <br>
+          <input type="checkbox" name="hob" id="hob2" value="Music">
+         <label for="hob1">Music</label>
+         <br>
+          <input type="checkbox" name="hob" id="hob3" value="Reading">
+         <label for="hob1">Reading</label>
+         <br>
+          <input type="checkbox" name="hob" id="hob4" value="Playing">
+         <label for="hob1">Playing</label>
+         <br>
+          <input type="checkbox" name="hob" id="hob5" value="Coding">
+         <label for="hob1">Coding</label>
+         <br>
+         <label for="jdate">Your joing Date</label>
+         <input type="date" id="jdate" name="jdate" value="2024-03-29" min="2020-03-01" max="2024-03-31">
+         <br>
+         <label for="city">Select City</label>
+         <select name="city" id="city">
+            <option value="karachi">Karachi</option>
+            <option value="lahore">Lahore</option>
+            <option value="islamabad" selected>Islamabad</option>
+            <option value="quetta">Quetta</option>
+            <option value="peshawar">Peshawar</option>
+            </select>
+            <br>
+            <label for="area">Why you want to join</label>
+            <br>
+            <textarea name="area" id="area" cols="30" rowa="10" placeholder="Your Comments Here"></textarea>
+            <br>
+            <input type="Reset" name="Reset" id="Reset" value="Reset">
+            <input type="Submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
